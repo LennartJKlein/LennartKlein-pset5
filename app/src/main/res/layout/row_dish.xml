@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/small_padding"
+    android:paddingBottom="@dimen/small_padding">
+
+    <ImageView
+        android:id="@+id/dish_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_image"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/dish_image"
+        android:layout_marginEnd="@dimen/list_icon_spacing" >
+
+        <TextView
+            android:id="@+id/dish_name"
+            android:text="@string/dish_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/dish_price"
+            android:text="@string/placeholder_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+            android:paddingBottom="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginEnd="@dimen/list_icon_spacing" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dish_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorBlack"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/placeholder_number"/>
+
+</RelativeLayout>

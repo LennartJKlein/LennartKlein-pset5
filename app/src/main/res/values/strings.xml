@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Weber Cooks</string>
+    <string name="title_home">Categories</string>
+    <string name="title_dishes">Dishes</string>
+    <string name="title_order">My order</string>
+    <string name="action_myorder">My order</string>
+    <string name="action_place">Place order</string>
+    <string name="action_clear">Clear</string>
+    <string name="divider" translatable="false"> > </string>
+    <string name="dish_name">Name of the dish</string>
+    <string name="placeholder_number" translatable="false">0</string>
+    <string name="placeholder_price" translatable="false">$ 0.00</string>
+    <string name="delete_dish">Remove dish from order?</string>
+    <string name="label_delete">Remove</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="success_order_title">We placed your order</string>
+    <string name="success_order_text">Thank you for placing your order. You can pick it up in about</string>
+    <string name="success_order_text2">minutes.</string>
+    <string name="error_network">No information found. Make sure your device has a network connection.</string>
+    <string name="error_order">No items in your order yet.</string>
+</resources>

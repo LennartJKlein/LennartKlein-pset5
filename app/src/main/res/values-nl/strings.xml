@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weber Cooks</string>
+    <string name="title_home">Categorieën</string>
+    <string name="title_dishes">Gerechten</string>
+    <string name="title_order">Mijn bestelling</string>
+    <string name="action_myorder">Mijn bestelling</string>
+    <string name="error_network">Geen informatie opgehaald. Zorg dat uw apparaat verbonden is met internet.</string>
+    <string name="action_place">Plaatsen</string>
+    <string name="action_clear">Leegmaken</string>
+    <string name="delete_dish">Gerecht verwijderen?</string>
+    <string name="label_delete">Verwijderen</string>
+    <string name="label_cancel">Annuleren</string>
+    <string name="error_order">Nog geen gerechten in je bestelling.</string>
+    <string name="dish_name">Naam van het gerecht</string>
+    <string name="success_order_title">Uw bestelling is geplaatst</string>
+    <string name="success_order_text">Bedankt voor uw bestelling. U kunt het afhalen over ongeveer</string>
+    <string name="success_order_text2">minuten.</string>
+</resources>
