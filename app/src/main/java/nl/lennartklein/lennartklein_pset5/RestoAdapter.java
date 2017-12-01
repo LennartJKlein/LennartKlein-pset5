@@ -19,7 +19,7 @@ public class RestoAdapter extends ResourceCursorAdapter {
         // Fetch data from row
         String image_url = cur.getString(cur.getColumnIndex("image_url"));
         String name = cur.getString(cur.getColumnIndex("name"));
-        String price = "$ " + cur.getInt(cur.getColumnIndex("price")) + "0";
+        String price = "$ " + cur.getInt(cur.getColumnIndex("price")) + ".00";
         int amount = cur.getInt(cur.getColumnIndex("amount"));
 
         // Set the data in the views
