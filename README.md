@@ -1,4 +1,4 @@
-# ![Weber Cooks - icon](/docs/app-ico.png?raw=true "Weber Cooks - icon") Weber Cooks
+# ![Weber Cooks - icon](/docs/app-icon.png?raw=true "Weber Cooks - icon") Weber Cooks
 
 An android restaurant app for Weber Cooks. Users can see the menu of the restaurant, place an order and receive the needed time to prepare it.
 
